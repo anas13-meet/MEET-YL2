@@ -1,0 +1,53 @@
+#headline4 {text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+    color: #fff;
+	margin-top: 0px;
+	text-align:center;
+font-size:40px;
+	}
+.buttons {margin-left: 400px; }
+
+a{color:white}
+a:hover{ color:purple; border-color: green;}
+
+
+
+#search {
+
+}
+select {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: #ddd;
+   border: 1px solid #ccc;
+   margin-left:auto;
+   margin-right:auto;
+   	display: block;
+   }
+
+#search input[type="text"] {
+background-color:#797979;
+    border: 0 none;
+    font: bold 17px Arial,Helvetica,Sans-serif;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    color: #fff;
+    width: 150px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 20px;
+    border-radius: 40px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 200px;
+    }
